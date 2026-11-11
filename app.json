@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Estate",
+    "slug": "estate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "infoPlist": { "NSLocationWhenInUseUsageDescription": "WorldHome uses your location to center Explore and find nearby homes." } },
+    "android": { "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"], "package": "com.worldhome.discovery" },
+    "plugins": ["expo-location", ["expo-image-picker", { "photosPermission": "Choose a property photo to include with your listing." }]]
+  }
+}
