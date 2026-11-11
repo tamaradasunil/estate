@@ -8,6 +8,10 @@
 
 The current Expo Go session is using LAN mode. The phone and computer need to be on the same Wi-Fi network. The QR is regenerated each time the server starts.
 
+## Build an installable APK
+
+The project includes an EAS Build `preview` profile that produces an APK. Sign in to an Expo account once with `npx eas-cli login`, then start the build with `npx eas-cli build --platform android --profile preview`. EAS may ask to link this project to an Expo account and create Android signing credentials on the first build. The completed APK can be downloaded from the EAS build page or the CLI output.
+
 ## What's included
 
 - Map and list exploration, global sample listings, sale/rent switch, text search, category and price filters.
